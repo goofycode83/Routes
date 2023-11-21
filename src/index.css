@@ -15,6 +15,7 @@ body > div {
   display: flex;
 }
 #navbar {
+  display: flex;
   padding: 2em;
   justify-content: space-evenly;
 }
@@ -33,10 +34,31 @@ body > div {
 }
 
 .red {
-  background-color: #b05f6d;
+  background-color: red;
   color: white;
 }
 .blue {
   background-color: #275db3;
   color: white;
+}
+
+.pink {
+  background-color: pink;
+  color: white;
+}
+
+.black {
+  background-color: black;
+  color: white;
+}
+
+.purple {
+  background-color: purple;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  padding: 2em;
+  justify-content: space-evenly;
 }
